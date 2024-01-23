@@ -25,6 +25,8 @@ static struct options kmod[] = {
 	{.opt = "--right-alt",		.val = 0x40},
 	{.opt = "--left-meta",		.val = 0x08},
 	{.opt = "--right-meta",		.val = 0x80},
+	{.opt = "--left-os",	.val = 0xe3},
+	{.opt = "--right-os",	.val = 0xe7},
 	{.opt = NULL}
 };
 
@@ -35,6 +37,7 @@ static struct options kval[] = {
 	{.opt = "--bckspc",	.val = 0x2a},
 	{.opt = "--tab",	.val = 0x2b},
 	{.opt = "--negative",	.val = 0x2d},
+	{.opt = "--plus",	.val = 0x57},
 	{.opt = "--equal",		.val = 0x2e},
 	{.opt = "--spacebar",	.val = 0x2c},
 	{.opt = "--caps-lock",	.val = 0x39},
@@ -72,6 +75,11 @@ static struct options kval[] = {
 	{.opt = "--kp-enter",	.val = 0x58},
 	{.opt = "--up",		.val = 0x52},
 	{.opt = "--num-lock",	.val = 0x53},
+	{.opt = "--dot",	.val = 0x37},
+	{.opt = "--comma",	.val = 0x36},
+	{.opt = "--volup",	.val = 0x80},
+	{.opt = "--voldown",	.val = 0x81},
+	{.opt = "--prtsc",	.val = 0x46},
 	{.opt = NULL}
 };
 
