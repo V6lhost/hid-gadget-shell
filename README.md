@@ -1,5 +1,3 @@
-#root #android #usb
-
 Not: Eğer cihazınıza bir zarar verirseniz sorumluluk kabul etmiyorum, her ne kadar basit bir işlem de olsa her şey sizin sorumluluğunuzda, bunu göz önünde bulundurarak talimatları uygulayın.
 Not: Klavye dilini ingilizce olarak ayarlarsanız daha sağlıklı çalışacaktır.
 
@@ -39,7 +37,7 @@ Not: Buradan HID Gadgetini etkinleştirdikten sonra MTP gibi diğer özellikleri
 Burada USB Gadget Tool ile işimiz bitti. Termux uygulamasını açıyoruz ve aşağıdaki komutu kullanarak Github üzerinden düzenleyerek rakamları eklediğim "hid" dosyasını indiriyoruz.
 
 ```
-wget https://github.com/V6lhost/hid-gadget-shell/blob/master/hid
+wget https://github.com/V6lhost/hid-gadget-shell/raw/master/hid
 ```
 
 Ardından dosyayı termux'un /bin dizinine kopyalayıp çalıştırma yetkisi veriyoruz.
